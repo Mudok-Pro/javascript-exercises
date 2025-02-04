@@ -23,7 +23,10 @@ else if (number === 0){
    const randomNum =getRandomInt(1000);
 
      return number;
+}else if (str === ''){
+    return result ; 
 }
+
 }
 
 const repeatedString = repeatString('hey', 3);
@@ -40,5 +43,7 @@ console.log(repeatedString5);
 const repeatedString6 = repeatString('odin', number);
 console.log(repeatedString6);
 
+const repeatedString7 = repeatString('',10);
+console.log(repeatedString7);
 // Do not edit below this line
 module.exports = repeatString;
